@@ -32,7 +32,9 @@ const options = ref({
 const signature = ref();
 
 const handleSave = () => {
-  var data = signature.value.saveSignature();
+  var data = signature.value.saveSignature()
   console.log(data);
+  
+  return signature.value.clearCanvas()
 };
 </script>
