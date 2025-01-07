@@ -36,3 +36,12 @@ Locally preview production build:
 # npm
 npm run preview
 ```
+
+## Dependancy
+
+
+npm install --save nuxt-signature-pad
+
+npm install --save-dev typescript
+
+add `nuxt-signature-pad` to the modules of nuxt.config.ts
